@@ -8,5 +8,9 @@ public:
 public: void cetak() {
 	cout << "NIM = " << nim;
 	cout << "\nNama = " << nama;
-}
+	}
+};
+
+class matakuliah {
+
 };
