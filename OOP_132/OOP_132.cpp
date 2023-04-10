@@ -30,4 +30,4 @@ public:
 		cout << "Nama matakuliah : " << namaM;
 		cout << "sks : " << sks;
 	}
-}
+};
