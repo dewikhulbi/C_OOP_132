@@ -15,5 +15,11 @@ class matakuliah {
 private:
 	string kode;
 	string namaM;
-	int sks:
+	int sks :
+public:
+	void input() {
+		cout << "masukan kode matakuliah : ";
+		cin >> kode;
+		
+	}
 };
