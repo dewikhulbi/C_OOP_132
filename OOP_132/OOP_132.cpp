@@ -15,7 +15,7 @@ class matakuliah {
 private:
 	string kode;
 	string namaM;
-	int sks :
+	int sks;
 public:
 	void input() {
 		cout << "masukan kode matakuliah : ";
@@ -31,3 +31,18 @@ public:
 		cout << "sks : " << sks;
 	}
 };
+
+int main()
+{
+	mahasiswa mhs1;
+	matakuliah mk;
+
+	cout << "Masukan NIM : ";
+	cin >> mhs1.nim;
+	cout << "Masukan Nama : ";
+	cin >> mhs1.nim;
+	mhs1.cetak();
+
+	mk.input();
+	mk.tampil();
+}
