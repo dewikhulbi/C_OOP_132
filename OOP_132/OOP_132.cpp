@@ -20,6 +20,7 @@ public:
 	void input() {
 		cout << "masukan kode matakuliah : ";
 		cin >> kode;
-		
+		cout << "masukan nama matakuliah : ";
+		cin >> namaM;
 	}
 };
