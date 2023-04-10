@@ -25,4 +25,4 @@ public:
 		cout << "jumlah sks: ";
 		cin >> sks;
 	}
-};
+}
