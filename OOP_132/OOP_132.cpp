@@ -22,5 +22,7 @@ public:
 		cin >> kode;
 		cout << "masukan nama matakuliah : ";
 		cin >> namaM;
+		cout << "jumlah sks: ";
+		cin >> sks;
 	}
 };
