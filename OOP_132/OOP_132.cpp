@@ -22,7 +22,7 @@ public:
 		cin >> kode;
 		cout << "masukan nama matakuliah : ";
 		cin >> namaM;
-		cout << "jumlah sks: ";
+		cout << "jumlah sks : ";
 		cin >> sks;
 	}
 	void tampil() {
@@ -40,7 +40,7 @@ int main()
 	cout << "Masukan NIM : ";
 	cin >> mhs1.nim;
 	cout << "Masukan Nama : ";
-	cin >> mhs1.nim;
+	cin >> mhs1.nama;
 	mhs1.cetak();
 
 	mk.input();
