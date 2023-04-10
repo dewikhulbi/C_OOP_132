@@ -28,5 +28,6 @@ public:
 	void tampil() {
 		cout << "kode matakuliah : " << kode;
 		cout << "Nama matakuliah : " << namaM;
+		cout << "sks : " << sks;
 	}
 }
